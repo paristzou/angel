@@ -84,3 +84,6 @@ GitHub 連結：________________________________________________
 希望一年後回來看這個網頁時，我已經學會更多程式設計技巧，也完成更多自己的作品。
 
 **Of course, to the Danger Zone。**
+
+
+🔴 **Of course, to the Danger Zone。**
