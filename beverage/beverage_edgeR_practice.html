@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+@font-face {
+font-family: octicons-link;
+src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+body {
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+color: #333;
+font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+line-height: 1.6;
+word-wrap: break-word;
+}
+a {
+background-color: transparent;
+}
+a:active,
+a:hover {
+outline: 0;
+}
+strong {
+font-weight: bold;
+}
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+img {
+border: 0;
+}
+hr {
+box-sizing: content-box;
+height: 0;
+}
+pre {
+overflow: auto;
+}
+code,
+kbd,
+pre {
+font-family: monospace, monospace;
+font-size: 1em;
+}
+input {
+color: inherit;
+font: inherit;
+margin: 0;
+}
+html input[disabled] {
+cursor: default;
+}
+input {
+line-height: normal;
+}
+input[type="checkbox"] {
+box-sizing: border-box;
+padding: 0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+td,
+th {
+padding: 0;
+}
+* {
+box-sizing: border-box;
+}
+input {
+font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a {
+color: #4078c0;
+text-decoration: none;
+}
+a:hover,
+a:active {
+text-decoration: underline;
+}
+hr {
+height: 0;
+margin: 15px 0;
+overflow: hidden;
+background: transparent;
+border: 0;
+border-bottom: 1px solid #ddd;
+}
+hr:before {
+display: table;
+content: "";
+}
+hr:after {
+display: table;
+clear: both;
+content: "";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 15px;
+margin-bottom: 15px;
+line-height: 1.1;
+}
+h1 {
+font-size: 30px;
+}
+h2 {
+font-size: 21px;
+}
+h3 {
+font-size: 16px;
+}
+h4 {
+font-size: 14px;
+}
+h5 {
+font-size: 12px;
+}
+h6 {
+font-size: 11px;
+}
+blockquote {
+margin: 0;
+}
+ul,
+ol {
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+ol ol,
+ul ol {
+list-style-type: lower-roman;
+}
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+list-style-type: lower-alpha;
+}
+dd {
+margin-left: 0;
+}
+code {
+font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+font-size: 12px;
+}
+pre {
+margin-top: 0;
+margin-bottom: 0;
+font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.select::-ms-expand {
+opacity: 0;
+}
+.octicon {
+font: normal normal normal 16px/1 octicons-link;
+display: inline-block;
+text-decoration: none;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.octicon-link:before {
+content: '\f05c';
+}
+.markdown-body:before {
+display: table;
+content: "";
+}
+.markdown-body:after {
+display: table;
+clear: both;
+content: "";
+}
+.markdown-body>*:first-child {
+margin-top: 0 !important;
+}
+.markdown-body>*:last-child {
+margin-bottom: 0 !important;
+}
+a:not([href]) {
+color: inherit;
+text-decoration: none;
+}
+.anchor {
+display: inline-block;
+padding-right: 2px;
+margin-left: -18px;
+}
+.anchor:focus {
+outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 1em;
+margin-bottom: 16px;
+font-weight: bold;
+line-height: 1.4;
+}
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
+color: #000;
+vertical-align: middle;
+visibility: hidden;
+}
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+text-decoration: none;
+}
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
+visibility: visible;
+}
+h1 {
+padding-bottom: 0.3em;
+font-size: 2.25em;
+line-height: 1.2;
+border-bottom: 1px solid #eee;
+}
+h1 .anchor {
+line-height: 1;
+}
+h2 {
+padding-bottom: 0.3em;
+font-size: 1.75em;
+line-height: 1.225;
+border-bottom: 1px solid #eee;
+}
+h2 .anchor {
+line-height: 1;
+}
+h3 {
+font-size: 1.5em;
+line-height: 1.43;
+}
+h3 .anchor {
+line-height: 1.2;
+}
+h4 {
+font-size: 1.25em;
+}
+h4 .anchor {
+line-height: 1.2;
+}
+h5 {
+font-size: 1em;
+}
+h5 .anchor {
+line-height: 1.1;
+}
+h6 {
+font-size: 1em;
+color: #777;
+}
+h6 .anchor {
+line-height: 1.1;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+margin-top: 0;
+margin-bottom: 16px;
+}
+hr {
+height: 4px;
+padding: 0;
+margin: 16px 0;
+background-color: #e7e7e7;
+border: 0 none;
+}
+ul,
+ol {
+padding-left: 2em;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+li>p {
+margin-top: 16px;
+}
+dl {
+padding: 0;
+}
+dl dt {
+padding: 0;
+margin-top: 16px;
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+}
+dl dd {
+padding: 0 16px;
+margin-bottom: 16px;
+}
+blockquote {
+padding: 0 15px;
+color: #777;
+border-left: 4px solid #ddd;
+}
+blockquote>:first-child {
+margin-top: 0;
+}
+blockquote>:last-child {
+margin-bottom: 0;
+}
+table {
+display: block;
+width: 100%;
+overflow: auto;
+word-break: normal;
+word-break: keep-all;
+}
+table th {
+font-weight: bold;
+}
+table th,
+table td {
+padding: 6px 13px;
+border: 1px solid #ddd;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #ccc;
+}
+table tr:nth-child(2n) {
+background-color: #f8f8f8;
+}
+img {
+max-width: 100%;
+box-sizing: content-box;
+background-color: #fff;
+}
+code {
+padding: 0;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin: 0;
+font-size: 85%;
+background-color: rgba(0,0,0,0.04);
+border-radius: 3px;
+}
+code:before,
+code:after {
+letter-spacing: -0.2em;
+content: "\00a0";
+}
+pre>code {
+padding: 0;
+margin: 0;
+font-size: 100%;
+word-break: normal;
+white-space: pre;
+background: transparent;
+border: 0;
+}
+.highlight {
+margin-bottom: 16px;
+}
+.highlight pre,
+pre {
+padding: 16px;
+overflow: auto;
+font-size: 85%;
+line-height: 1.45;
+background-color: #f7f7f7;
+border-radius: 3px;
+}
+.highlight pre {
+margin-bottom: 0;
+word-break: normal;
+}
+pre {
+word-wrap: normal;
+}
+pre code {
+display: inline;
+max-width: initial;
+padding: 0;
+margin: 0;
+overflow: initial;
+line-height: inherit;
+word-wrap: normal;
+background-color: transparent;
+border: 0;
+}
+pre code:before,
+pre code:after {
+content: normal;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font-size: 11px;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.pl-c {
+color: #969896;
+}
+.pl-c1,
+.pl-s .pl-v {
+color: #0086b3;
+}
+.pl-e,
+.pl-en {
+color: #795da3;
+}
+.pl-s .pl-s1,
+.pl-smi {
+color: #333;
+}
+.pl-ent {
+color: #63a35c;
+}
+.pl-k {
+color: #a71d5d;
+}
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
+color: #183691;
+}
+.pl-v {
+color: #ed6a43;
+}
+.pl-id {
+color: #b52a1d;
+}
+.pl-ii {
+background-color: #b52a1d;
+color: #f8f8f8;
+}
+.pl-sr .pl-cce {
+color: #63a35c;
+font-weight: bold;
+}
+.pl-ml {
+color: #693a17;
+}
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
+color: #1d3e81;
+font-weight: bold;
+}
+.pl-mq {
+color: #008080;
+}
+.pl-mi {
+color: #333;
+font-style: italic;
+}
+.pl-mb {
+color: #333;
+font-weight: bold;
+}
+.pl-md {
+background-color: #ffecec;
+color: #bd2c00;
+}
+.pl-mi1 {
+background-color: #eaffea;
+color: #55a532;
+}
+.pl-mdr {
+color: #795da3;
+font-weight: bold;
+}
+.pl-mo {
+color: #1d3e81;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.task-list-item {
+list-style-type: none;
+}
+.task-list-item+.task-list-item {
+margin-top: 3px;
+}
+.task-list-item input {
+margin: 0 0.35em 0.25em -1.6em;
+vertical-align: middle;
+}
+:checked+.radio-label {
+z-index: 1;
+position: relative;
+border-color: #4078c0;
+}
+.sourceLine {
+display: inline-block;
+}
+code .kw { color: #000000; }
+code .dt { color: #ed6a43; }
+code .dv { color: #009999; }
+code .bn { color: #009999; }
+code .fl { color: #009999; }
+code .ch { color: #009999; }
+code .st { color: #183691; }
+code .co { color: #969896; }
+code .ot { color: #0086b3; }
+code .al { color: #a61717; }
+code .fu { color: #63a35c; }
+code .er { color: #a61717; background-color: #e3d2d2; }
+code .wa { color: #000000; }
+code .cn { color: #008080; }
+code .sc { color: #008080; }
+code .vs { color: #183691; }
+code .ss { color: #183691; }
+code .im { color: #000000; }
+code .va {color: #008080; }
+code .cf { color: #000000; }
+code .op { color: #000000; }
+code .bu { color: #000000; }
+code .ex { color: #000000; }
+code .pp { color: #999999; }
+code .at { color: #008080; }
+code .do { color: #969896; }
+code .an { color: #008080; }
+code .cv { color: #008080; }
+code .in { color: #008080; }
+</style>
+<style>
+body {
+box-sizing: border-box;
+min-width: 200px;
+max-width: 980px;
+margin: 0 auto;
+padding: 45px;
+padding-top: 0px;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="beverage_edger_practicer">beverage_edgeR_practice.R</h1>
+<p>paris 2026-10-25</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co"># ==============================================================================</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="co"># 連鎖手搖飲銷量大數據分析實作 (Beverage Store Sales Pipeline with edgeR)</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a><span class="co"># 授課主題：以手搖飲門市銷量理解 RNA-seq 差異表達分析 (edgeR QL Workflow)</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a><span class="co"># 對照概念：</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a><span class="co">#   - 基因 (Gene)            &lt;--&gt; 飲料單品 (Beverage Item, 如波霸厚鮮奶、四季春)</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a><span class="co">#   - 定序計數 (Read Count)  &lt;--&gt; 當日銷售杯數 (Daily Cups Sold)</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a><span class="co">#   - 定序深度 (Library Size)&lt;--&gt; 門市當日總營收杯數 (Total Store Daily Volume)</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a><span class="co">#   - 實驗分組 (Group)       &lt;--&gt; 門市類型 x 活動 (Campus.Normal, Campus.Promo...)</span></span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a><span class="co">#   - 基因集 (Gene Set)      &lt;--&gt; 飲料分類 (Category, 如季節冰沙、原葉純茶)</span></span>
+<span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a><span class="co"># ==============================================================================</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="co"># 步驟 0. 安裝與載入必備套件 (Setup Packages)</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># 若尚未安裝 Bioconductor 或 edgeR，請取消下行註解執行：</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="co"># if (!requireNamespace(&quot;BiocManager&quot;, quietly = TRUE)) install.packages(&quot;BiocManager&quot;)</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="co"># BiocManager::install(c(&quot;edgeR&quot;, &quot;limma&quot;))</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co"># install.packages(c(&quot;readxl&quot;, &quot;gplots&quot;, &quot;RColorBrewer&quot;))</span></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>({</span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>  <span class="fu">library</span>(edgeR)</span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a>  <span class="fu">library</span>(limma)</span>
+<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a>  <span class="fu">library</span>(readxl)</span>
+<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a>  <span class="fu">library</span>(gplots)</span>
+<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a>  <span class="fu">library</span>(RColorBrewer)</span>
+<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a>})</span>
+<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 成功載入分析套件！開始執行手搖飲銷售數據分析 Pipeline...</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 成功載入分析套件！開始執行手搖飲銷售數據分析 Pipeline...</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="co"># 步驟 1. 讀取 Excel 資料並建立 DGEList 核心容器 (Data Import &amp; DGEList)</span></span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>excel_path <span class="ot">&lt;-</span> <span class="st">&quot;input.xlsx&quot;</span></span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a><span class="co"># 1.1 讀取樣本實驗設計表 (Store_Targets)</span></span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1"></a>targets <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(<span class="fu">read_excel</span>(excel_path, <span class="at">sheet =</span> <span class="st">&quot;Store_Targets&quot;</span>))</span>
+<span id="cb6-5"><a href="#cb6-5" tabindex="-1"></a><span class="fu">rownames</span>(targets) <span class="ot">&lt;-</span> targets<span class="sc">$</span>SampleID</span>
+<span id="cb6-6"><a href="#cb6-6" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [1.1 門市樣本實驗設計表] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [1.1 門市樣本實驗設計表] ---</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(targets))</span></code></pre></div>
+<pre><code>##                          SampleID StoreType Status         Group
+## Campus_Normal_R1 Campus_Normal_R1    Campus Normal Campus.Normal
+## Campus_Normal_R2 Campus_Normal_R2    Campus Normal Campus.Normal
+## Campus_Normal_R3 Campus_Normal_R3    Campus Normal Campus.Normal
+## Campus_Promo_R1   Campus_Promo_R1    Campus  Promo  Campus.Promo
+## Campus_Promo_R2   Campus_Promo_R2    Campus  Promo  Campus.Promo
+## Campus_Promo_R3   Campus_Promo_R3    Campus  Promo  Campus.Promo
+##                  DayOfWeek Weather Replicate
+## Campus_Normal_R1       Fri   Sunny         1
+## Campus_Normal_R2       Fri   Sunny         2
+## Campus_Normal_R3       Tue  Cloudy         3
+## Campus_Promo_R1        Sat   Sunny         1
+## Campus_Promo_R2        Sat   Sunny         2
+## Campus_Promo_R3        Sun  Cloudy         3</code></pre>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="co"># 1.2 讀取銷售杯數矩陣 (Sales_Counts)</span></span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a>counts_df <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(<span class="fu">read_excel</span>(excel_path, <span class="at">sheet =</span> <span class="st">&quot;Sales_Counts&quot;</span>))</span>
+<span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a><span class="fu">rownames</span>(counts_df) <span class="ot">&lt;-</span> counts_df<span class="sc">$</span>ItemID</span>
+<span id="cb10-4"><a href="#cb10-4" tabindex="-1"></a>counts_mat <span class="ot">&lt;-</span> <span class="fu">as.matrix</span>(counts_df[, <span class="sc">-</span><span class="dv">1</span>]) <span class="co"># 移除 ItemID 欄位轉為純數值矩陣</span></span>
+<span id="cb10-5"><a href="#cb10-5" tabindex="-1"></a><span class="fu">storage.mode</span>(counts_mat) <span class="ot">&lt;-</span> <span class="st">&quot;integer&quot;</span></span>
+<span id="cb10-6"><a href="#cb10-6" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="#cb10-7" tabindex="-1"></a><span class="co"># 1.3 讀取飲品資訊表 (Beverage_Info, 相當於基因註解 Gene Annotation)</span></span>
+<span id="cb10-8"><a href="#cb10-8" tabindex="-1"></a>item_info <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(<span class="fu">read_excel</span>(excel_path, <span class="at">sheet =</span> <span class="st">&quot;Beverage_Info&quot;</span>))</span>
+<span id="cb10-9"><a href="#cb10-9" tabindex="-1"></a><span class="fu">rownames</span>(item_info) <span class="ot">&lt;-</span> item_info<span class="sc">$</span>ItemID</span>
+<span id="cb10-10"><a href="#cb10-10" tabindex="-1"></a></span>
+<span id="cb10-11"><a href="#cb10-11" tabindex="-1"></a><span class="co"># 1.4 定義實驗分組因子 (Group Factor: 門市類型.促銷狀態)</span></span>
+<span id="cb10-12"><a href="#cb10-12" tabindex="-1"></a>group <span class="ot">&lt;-</span> <span class="fu">factor</span>(targets<span class="sc">$</span>Group)</span>
+<span id="cb10-13"><a href="#cb10-13" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [1.4 門市實驗分組 (Levels)] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [1.4 門市實驗分組 (Levels)] ---</code></pre>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">table</span>(group))</span></code></pre></div>
+<pre><code>## group
+## Campus.Normal  Campus.Promo   Mall.Normal    Mall.Promo 
+##             3             3             3             3</code></pre>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="co"># 1.5 封裝為 edgeR 核心容器 DGEList</span></span>
+<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">DGEList</span>(<span class="at">counts =</span> counts_mat, <span class="at">group =</span> group, <span class="at">genes =</span> item_info)</span>
+<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [1.5 DGEList 容器檢視 (前 3 樣本文庫大小)] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [1.5 DGEList 容器檢視 (前 3 樣本文庫大小)] ---</code></pre>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(y<span class="sc">$</span>samples, <span class="dv">3</span>))</span></code></pre></div>
+<pre><code>##                          group lib.size norm.factors
+## Campus_Normal_R1 Campus.Normal    17297            1
+## Campus_Normal_R2 Campus.Normal    16585            1
+## Campus_Normal_R3 Campus.Normal    16403            1</code></pre>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="co"># 步驟 2. 冷門品項過濾 (Low Sales Filtering: 剔除極低表現雜訊)</span></span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="co"># 商業直覺：菜單上有些冷門養生茶或極端特調，全台一天賣不到 1~2 杯。</span></span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a><span class="co"># 這些品項只會干擾統計模型，無法評估促銷成效，必須事先剔除。</span></span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a><span class="co"># 標準：保留在至少 3 個樣本中 CPM &gt; 0.5 的品項。</span></span>
+<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a></span>
+<span id="cb19-5"><a href="#cb19-5" tabindex="-1"></a>cpm_values <span class="ot">&lt;-</span> <span class="fu">cpm</span>(y)</span>
+<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a>keep <span class="ot">&lt;-</span> <span class="fu">rowSums</span>(cpm_values <span class="sc">&gt;</span> <span class="fl">0.5</span>) <span class="sc">&gt;=</span> <span class="dv">3</span></span>
+<span id="cb19-7"><a href="#cb19-7" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [步驟 2: 品項過濾統計] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [步驟 2: 品項過濾統計] ---</code></pre>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;原始菜單飲品數:&quot;</span>, <span class="fu">nrow</span>(y), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 原始菜單飲品數: 150</code></pre>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;保留的主力/潛力飲品數:&quot;</span>, <span class="fu">sum</span>(keep), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 保留的主力/潛力飲品數: 148</code></pre>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;剔除的冷門/零星飲品數:&quot;</span>, <span class="fu">sum</span>(<span class="sc">!</span>keep), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 剔除的冷門/零星飲品數: 2</code></pre>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a><span class="co"># 檢視被剔除的飲品名稱 (看看是不是冷門肉桂冬瓜露、特製丁香苦茶！)</span></span>
+<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a>filtered_out_items <span class="ot">&lt;-</span> y<span class="sc">$</span>genes<span class="sc">$</span>DrinkName[<span class="sc">!</span>keep]</span>
+<span id="cb27-3"><a href="#cb27-3" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;被剔除的冷門飲品範例:&quot;</span>, <span class="fu">head</span>(filtered_out_items, <span class="dv">4</span>), <span class="st">&quot;...</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 被剔除的冷門飲品範例: 銀耳蓮子羹 老薑地瓜露 ...</code></pre>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" tabindex="-1"></a><span class="co"># 更新 DGEList 並重設文庫大小 (keep.lib.sizes = FALSE)</span></span>
+<span id="cb29-2"><a href="#cb29-2" tabindex="-1"></a>y <span class="ot">&lt;-</span> y[keep, , keep.lib.sizes <span class="ot">=</span> <span class="cn">FALSE</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="co"># 步驟 3. 門市總量偏差標準化 (TMM Normalization)</span></span></code></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" tabindex="-1"></a><span class="co"># 商業直覺：促銷日當天全店總杯數暴增（文庫變大），不能只看絕對杯數。</span></span>
+<span id="cb31-2"><a href="#cb31-2" tabindex="-1"></a><span class="co"># 若某款茶促銷日賣 100 杯，平日也賣 100 杯，實際上佔比大幅衰退！</span></span>
+<span id="cb31-3"><a href="#cb31-3" tabindex="-1"></a><span class="co"># calcNormFactors 使用 TMM (Trimmed Mean of M-values) 算出校正係數 norm.factors。</span></span>
+<span id="cb31-4"><a href="#cb31-4" tabindex="-1"></a></span>
+<span id="cb31-5"><a href="#cb31-5" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">calcNormFactors</span>(y)</span></code></pre></div>
+<pre><code>## calcNormFactors has been renamed to normLibSizes</code></pre>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [步驟 3: TMM 標準化係數] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [步驟 3: TMM 標準化係數] ---</code></pre>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" tabindex="-1"></a><span class="fu">print</span>(y<span class="sc">$</span>samples[, <span class="fu">c</span>(<span class="st">&quot;group&quot;</span>, <span class="st">&quot;lib.size&quot;</span>, <span class="st">&quot;norm.factors&quot;</span>)])</span></code></pre></div>
+<pre><code>##                          group lib.size norm.factors
+## Campus_Normal_R1 Campus.Normal    17297    1.1157472
+## Campus_Normal_R2 Campus.Normal    16585    1.0690894
+## Campus_Normal_R3 Campus.Normal    16403    1.0704940
+## Campus_Promo_R1   Campus.Promo    45945    0.8589870
+## Campus_Promo_R2   Campus.Promo    45611    0.8715179
+## Campus_Promo_R3   Campus.Promo    43774    0.8683567
+## Mall_Normal_R1     Mall.Normal    11332    1.2149253
+## Mall_Normal_R2     Mall.Normal    10446    1.2210037
+## Mall_Normal_R3     Mall.Normal    10768    1.1687138
+## Mall_Promo_R1       Mall.Promo    38612    0.8542224
+## Mall_Promo_R2       Mall.Promo    35057    0.9159824
+## Mall_Promo_R3       Mall.Promo    34795    0.8880594</code></pre>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" tabindex="-1"></a><span class="co"># 步驟 4. 探索性品管分析 (QC &amp; Exploratory Plotting)</span></span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" tabindex="-1"></a><span class="co"># 4.1 MDS Plot (多維尺度分析圖)：檢驗同組重複樣本是否緊密聚集</span></span>
+<span id="cb38-2"><a href="#cb38-2" tabindex="-1"></a><span class="fu">pdf</span>(<span class="st">&quot;plot_01_MDS.pdf&quot;</span>, <span class="at">width =</span> <span class="dv">8</span>, <span class="at">height =</span> <span class="dv">7</span>)</span>
+<span id="cb38-3"><a href="#cb38-3" tabindex="-1"></a>col_palette <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Campus.Normal&quot;</span> <span class="ot">=</span> <span class="st">&quot;darkgreen&quot;</span>, <span class="st">&quot;Campus.Promo&quot;</span> <span class="ot">=</span> <span class="st">&quot;red&quot;</span>,</span>
+<span id="cb38-4"><a href="#cb38-4" tabindex="-1"></a>                 <span class="st">&quot;Mall.Normal&quot;</span> <span class="ot">=</span> <span class="st">&quot;blue&quot;</span>, <span class="st">&quot;Mall.Promo&quot;</span> <span class="ot">=</span> <span class="st">&quot;purple&quot;</span>)</span>
+<span id="cb38-5"><a href="#cb38-5" tabindex="-1"></a>pch_shapes <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Campus.Normal&quot;</span> <span class="ot">=</span> <span class="dv">15</span>, <span class="st">&quot;Campus.Promo&quot;</span> <span class="ot">=</span> <span class="dv">16</span>,</span>
+<span id="cb38-6"><a href="#cb38-6" tabindex="-1"></a>                <span class="st">&quot;Mall.Normal&quot;</span> <span class="ot">=</span> <span class="dv">17</span>, <span class="st">&quot;Mall.Promo&quot;</span> <span class="ot">=</span> <span class="dv">18</span>)</span>
+<span id="cb38-7"><a href="#cb38-7" tabindex="-1"></a></span>
+<span id="cb38-8"><a href="#cb38-8" tabindex="-1"></a><span class="fu">plotMDS</span>(y, <span class="at">col =</span> col_palette[group], <span class="at">pch =</span> pch_shapes[group], <span class="at">cex =</span> <span class="fl">1.3</span>,</span>
+<span id="cb38-9"><a href="#cb38-9" tabindex="-1"></a>        <span class="at">main =</span> <span class="st">&quot;手搖飲門市銷量 MDS 分群圖 (QC)&quot;</span>)</span></code></pre></div>
+<pre><code>## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 手 (U+624B)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 搖 (U+6416)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 飲 (U+98F2)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 門 (U+9580)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 市 (U+5E02)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 銷 (U+92B7)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 量 (U+91CF)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 分 (U+5206)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 群 (U+7FA4)
+
+## Warning in title(...): conversion failure on &#39;手搖飲門市銷量 MDS
+## 分群圖 (QC)&#39; in &#39;mbcsToSbcs&#39;: for 圖 (U+5716)</code></pre>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">&quot;topright&quot;</span>, <span class="at">legend =</span> <span class="fu">levels</span>(group), <span class="at">col =</span> col_palette, <span class="at">pch =</span> pch_shapes, <span class="at">cex =</span> <span class="fl">0.9</span>)</span>
+<span id="cb40-2"><a href="#cb40-2" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+<pre><code>## png 
+##   2</code></pre>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">&gt;&gt;&gt; 已輸出 plot_01_MDS.pdf (檢查門市與促銷日是否成功分開)</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## &gt;&gt;&gt; 已輸出 plot_01_MDS.pdf (檢查門市與促銷日是否成功分開)</code></pre>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" tabindex="-1"></a><span class="co"># 4.2 MD Plot (單一樣本表現分佈對稱性)</span></span>
+<span id="cb44-2"><a href="#cb44-2" tabindex="-1"></a><span class="fu">pdf</span>(<span class="st">&quot;plot_02_MD_sample1.pdf&quot;</span>, <span class="at">width =</span> <span class="dv">7</span>, <span class="at">height =</span> <span class="dv">6</span>)</span>
+<span id="cb44-3"><a href="#cb44-3" tabindex="-1"></a><span class="fu">plotMD</span>(y, <span class="at">column =</span> <span class="dv">1</span>, <span class="at">main =</span> <span class="st">&quot;樣本 1 (Campus_Normal_R1) Mean-Difference 品管圖&quot;</span>)</span></code></pre></div>
+<pre><code>## Warning in title(...): conversion failure on &#39;樣本 1
+## (Campus_Normal_R1) Mean-Difference 品管圖&#39; in &#39;mbcsToSbcs&#39;: for
+## 樣 (U+6A23)
+
+## Warning in title(...): conversion failure on &#39;樣本 1
+## (Campus_Normal_R1) Mean-Difference 品管圖&#39; in &#39;mbcsToSbcs&#39;: for
+## 本 (U+672C)
+
+## Warning in title(...): conversion failure on &#39;樣本 1
+## (Campus_Normal_R1) Mean-Difference 品管圖&#39; in &#39;mbcsToSbcs&#39;: for
+## 品 (U+54C1)
+
+## Warning in title(...): conversion failure on &#39;樣本 1
+## (Campus_Normal_R1) Mean-Difference 品管圖&#39; in &#39;mbcsToSbcs&#39;: for
+## 管 (U+7BA1)
+
+## Warning in title(...): conversion failure on &#39;樣本 1
+## (Campus_Normal_R1) Mean-Difference 品管圖&#39; in &#39;mbcsToSbcs&#39;: for
+## 圖 (U+5716)</code></pre>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h =</span> <span class="dv">0</span>, <span class="at">col =</span> <span class="st">&quot;red&quot;</span>, <span class="at">lty =</span> <span class="dv">2</span>, <span class="at">lwd =</span> <span class="dv">2</span>)</span>
+<span id="cb46-2"><a href="#cb46-2" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+<pre><code>## png 
+##   2</code></pre>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 已輸出 plot_02_MD_sample1.pdf</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 已輸出 plot_02_MD_sample1.pdf</code></pre>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" tabindex="-1"></a><span class="co"># 步驟 5. 構建設計矩陣、估計離散度與模型擬合 (Dispersion &amp; QL Fit)</span></span></code></pre></div>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" tabindex="-1"></a><span class="co"># 5.1 構建無截距設計矩陣 (Cell Means Model)</span></span>
+<span id="cb51-2"><a href="#cb51-2" tabindex="-1"></a>design <span class="ot">&lt;-</span> <span class="fu">model.matrix</span>(<span class="sc">~</span> <span class="dv">0</span> <span class="sc">+</span> group)</span>
+<span id="cb51-3"><a href="#cb51-3" tabindex="-1"></a><span class="fu">colnames</span>(design) <span class="ot">&lt;-</span> <span class="fu">levels</span>(group)</span>
+<span id="cb51-4"><a href="#cb51-4" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [5.1 實驗設計矩陣 (Design Matrix)] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [5.1 實驗設計矩陣 (Design Matrix)] ---</code></pre>
+<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" tabindex="-1"></a><span class="fu">print</span>(design)</span></code></pre></div>
+<pre><code>##    Campus.Normal Campus.Promo Mall.Normal Mall.Promo
+## 1              1            0           0          0
+## 2              1            0           0          0
+## 3              1            0           0          0
+## 4              0            1           0          0
+## 5              0            1           0          0
+## 6              0            1           0          0
+## 7              0            0           1          0
+## 8              0            0           1          0
+## 9              0            0           1          0
+## 10             0            0           0          1
+## 11             0            0           0          1
+## 12             0            0           0          1
+## attr(,&quot;assign&quot;)
+## [1] 1 1 1 1
+## attr(,&quot;contrasts&quot;)
+## attr(,&quot;contrasts&quot;)$group
+## [1] &quot;contr.treatment&quot;</code></pre>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" tabindex="-1"></a><span class="co"># 5.2 估計負二項離散度 (Negative Binomial Dispersion with Empirical Bayes)</span></span>
+<span id="cb55-2"><a href="#cb55-2" tabindex="-1"></a><span class="co"># 商業直覺：用全菜單 100 多款飲料的整體波動規律，去「收縮」單品 3 天紀錄的隨機誤差。</span></span>
+<span id="cb55-3"><a href="#cb55-3" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">estimateDisp</span>(y, design, <span class="at">robust =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb55-4"><a href="#cb55-4" tabindex="-1"></a></span>
+<span id="cb55-5"><a href="#cb55-5" tabindex="-1"></a><span class="fu">pdf</span>(<span class="st">&quot;plot_03_BCV.pdf&quot;</span>, <span class="at">width =</span> <span class="dv">7</span>, <span class="at">height =</span> <span class="dv">6</span>)</span>
+<span id="cb55-6"><a href="#cb55-6" tabindex="-1"></a><span class="fu">plotBCV</span>(y, <span class="at">main =</span> <span class="st">&quot;飲品銷量生物變異係數圖 (BCV Plot)&quot;</span>)</span></code></pre></div>
+<pre><code>## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 飲
+## (U+98F2)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 品
+## (U+54C1)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 銷
+## (U+92B7)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 量
+## (U+91CF)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 生
+## (U+751F)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 物
+## (U+7269)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 變
+## (U+8B8A)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 異
+## (U+7570)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 係
+## (U+4FC2)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 數
+## (U+6578)
+
+## Warning in title(...): conversion failure on
+## &#39;飲品銷量生物變異係數圖 (BCV Plot)&#39; in &#39;mbcsToSbcs&#39;: for 圖
+## (U+5716)</code></pre>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+<pre><code>## png 
+##   2</code></pre>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 已輸出 plot_03_BCV.pdf (觀察銷量規模越大、百分比變異越小的規律)</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 已輸出 plot_03_BCV.pdf (觀察銷量規模越大、百分比變異越小的規律)</code></pre>
+<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" tabindex="-1"></a><span class="co"># 5.3 擬合準似然廣義線性模型 (Quasi-Likelihood GLM)</span></span>
+<span id="cb61-2"><a href="#cb61-2" tabindex="-1"></a><span class="co"># 商業直覺：每款飲料有自己的脾氣 (例如冰沙容易受天氣影響，熱茶平穩)，給予專屬 QL 離散度。</span></span>
+<span id="cb61-3"><a href="#cb61-3" tabindex="-1"></a>fit <span class="ot">&lt;-</span> <span class="fu">glmQLFit</span>(y, design, <span class="at">robust =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb61-4"><a href="#cb61-4" tabindex="-1"></a></span>
+<span id="cb61-5"><a href="#cb61-5" tabindex="-1"></a><span class="fu">pdf</span>(<span class="st">&quot;plot_04_QLDisp.pdf&quot;</span>, <span class="at">width =</span> <span class="dv">7</span>, <span class="at">height =</span> <span class="dv">6</span>)</span>
+<span id="cb61-6"><a href="#cb61-6" tabindex="-1"></a><span class="fu">plotQLDisp</span>(fit, <span class="at">main =</span> <span class="st">&quot;QL 準似然離散度與經驗貝葉斯收縮圖&quot;</span>)</span></code></pre></div>
+<pre><code>## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 準 (U+6E96)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 似 (U+4F3C)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 然 (U+7136)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 離 (U+96E2)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 散 (U+6563)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 度 (U+5EA6)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 與 (U+8207)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 經 (U+7D93)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 驗 (U+9A57)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 貝 (U+8C9D)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 葉 (U+8449)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 斯 (U+65AF)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 收 (U+6536)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 縮 (U+7E2E)
+
+## Warning in title(...): conversion failure on &#39;QL
+## 準似然離散度與經驗貝葉斯收縮圖&#39; in &#39;mbcsToSbcs&#39;: for 圖 (U+5716)</code></pre>
+<div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb63-1"><a href="#cb63-1" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+<pre><code>## png 
+##   2</code></pre>
+<div class="sourceCode" id="cb65"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb65-1"><a href="#cb65-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 已輸出 plot_04_QLDisp.pdf (檢視各品項收縮後的最終波動裕度)</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 已輸出 plot_04_QLDisp.pdf (檢視各品項收縮後的最終波動裕度)</code></pre>
+<div class="sourceCode" id="cb67"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb67-1"><a href="#cb67-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [5.3 先驗自由度 (Prior df)] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [5.3 先驗自由度 (Prior df)] ---</code></pre>
+<div class="sourceCode" id="cb69"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">summary</span>(fit<span class="sc">$</span>df.prior))</span></code></pre></div>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   17.67   17.67   17.67   17.67   17.67   17.67</code></pre>
+<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" tabindex="-1"></a><span class="co"># 步驟 6. 定義商業對比矩陣與統計檢定 (Contrasts &amp; Testing)</span></span></code></pre></div>
+<div class="sourceCode" id="cb72"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1" tabindex="-1"></a><span class="co"># 6.1 設定四種經典商業考題 (Contrasts)：</span></span>
+<span id="cb72-2"><a href="#cb72-2" tabindex="-1"></a><span class="co">#   Q1: 學校門市促銷有沒有爆發？ (Campus.Promo vs Campus.Normal)</span></span>
+<span id="cb72-3"><a href="#cb72-3" tabindex="-1"></a><span class="co">#   Q2: 百貨門市促銷有沒有爆發？ (Mall.Promo vs Mall.Normal)</span></span>
+<span id="cb72-4"><a href="#cb72-4" tabindex="-1"></a><span class="co">#   Q3: 平常哪間店熱愛買純茶/奶茶？ (Campus.Normal vs Mall.Normal)</span></span>
+<span id="cb72-5"><a href="#cb72-5" tabindex="-1"></a><span class="co">#   Q4: 促銷在百貨的威力是否顯著超越學校？ (Interaction / 雙重差異交互作用)</span></span>
+<span id="cb72-6"><a href="#cb72-6" tabindex="-1"></a>con <span class="ot">&lt;-</span> <span class="fu">makeContrasts</span>(</span>
+<span id="cb72-7"><a href="#cb72-7" tabindex="-1"></a>  <span class="at">Campus_Promo_Effect =</span> Campus.Promo <span class="sc">-</span> Campus.Normal,</span>
+<span id="cb72-8"><a href="#cb72-8" tabindex="-1"></a>  <span class="at">Mall_Promo_Effect   =</span> Mall.Promo <span class="sc">-</span> Mall.Normal,</span>
+<span id="cb72-9"><a href="#cb72-9" tabindex="-1"></a>  <span class="at">Store_Baseline_Diff =</span> Campus.Normal <span class="sc">-</span> Mall.Normal,</span>
+<span id="cb72-10"><a href="#cb72-10" tabindex="-1"></a>  <span class="at">Interaction_Promo   =</span> (Mall.Promo <span class="sc">-</span> Mall.Normal) <span class="sc">-</span> (Campus.Promo <span class="sc">-</span> Campus.Normal),</span>
+<span id="cb72-11"><a href="#cb72-11" tabindex="-1"></a>  <span class="at">levels =</span> design</span>
+<span id="cb72-12"><a href="#cb72-12" tabindex="-1"></a>)</span>
+<span id="cb72-13"><a href="#cb72-13" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [6.1 商業假說對比矩陣] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [6.1 商業假說對比矩陣] ---</code></pre>
+<div class="sourceCode" id="cb74"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb74-1"><a href="#cb74-1" tabindex="-1"></a><span class="fu">print</span>(con)</span></code></pre></div>
+<pre><code>##                Contrasts
+## Levels          Campus_Promo_Effect Mall_Promo_Effect
+##   Campus.Normal                  -1                 0
+##   Campus.Promo                    1                 0
+##   Mall.Normal                     0                -1
+##   Mall.Promo                      0                 1
+##                Contrasts
+## Levels          Store_Baseline_Diff Interaction_Promo
+##   Campus.Normal                   1                 1
+##   Campus.Promo                    0                -1
+##   Mall.Normal                    -1                -1
+##   Mall.Promo                      0                 1</code></pre>
+<div class="sourceCode" id="cb76"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb76-1"><a href="#cb76-1" tabindex="-1"></a><span class="co"># 6.2 傳統 QL F-test 檢定 (檢驗促銷效應是否 != 0)</span></span>
+<span id="cb76-2"><a href="#cb76-2" tabindex="-1"></a>res_campus <span class="ot">&lt;-</span> <span class="fu">glmQLFTest</span>(fit, <span class="at">contrast =</span> con[, <span class="st">&quot;Campus_Promo_Effect&quot;</span>])</span>
+<span id="cb76-3"><a href="#cb76-3" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [6.2 學校促銷 QL F-test 前 5 大顯著品項] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [6.2 學校促銷 QL F-test 前 5 大顯著品項] ---</code></pre>
+<div class="sourceCode" id="cb78"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb78-1"><a href="#cb78-1" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">topTags</span>(res_campus, <span class="at">n =</span> <span class="dv">5</span>))</span></code></pre></div>
+<pre><code>## Coefficient:  -1*Campus.Normal 1*Campus.Promo 
+##              ItemID    DrinkName Category BaseTea BasePrice
+## DRINK_029 DRINK_029     熟成歐蕾 濃醇奶茶  普洱茶        40
+## DRINK_035 DRINK_035 仙草凍鮮奶茶 濃醇奶茶  普洱茶        40
+## DRINK_097 DRINK_097 黑鑽可可冰沙 季節冰沙    紅茶        60
+## DRINK_028 DRINK_028 黑糖雙波鮮奶 濃醇奶茶  烏龍茶        75
+## DRINK_027 DRINK_027 經典珍珠奶茶 濃醇奶茶    青茶        35
+##              logFC   logCPM        F       PValue          FDR
+## DRINK_029 2.007788 13.74843 72.98855 5.602409e-09 6.154436e-07
+## DRINK_035 1.858859 13.09164 70.03727 8.316806e-09 6.154436e-07
+## DRINK_097 1.883667 13.10055 62.89559 2.281178e-08 1.125381e-06
+## DRINK_028 1.761966 13.89650 59.74372 3.655652e-08 1.316830e-06
+## DRINK_027 1.759206 13.65842 58.46688 4.448748e-08 1.316830e-06</code></pre>
+<div class="sourceCode" id="cb80"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb80-1"><a href="#cb80-1" tabindex="-1"></a><span class="co"># 6.3 總經理的嚴格檢定 glmTreat (門檻: 銷量成長顯著大於 1.5 倍, 即 lfc &gt; log2(1.5))</span></span>
+<span id="cb80-2"><a href="#cb80-2" tabindex="-1"></a><span class="co"># 商業直覺：銷量只增加 5% 就算統計顯著也沒商業價值，必須是成長 1.5 倍以上的真爆款！</span></span>
+<span id="cb80-3"><a href="#cb80-3" tabindex="-1"></a>tr_campus <span class="ot">&lt;-</span> <span class="fu">glmTreat</span>(fit, <span class="at">contrast =</span> con[, <span class="st">&quot;Campus_Promo_Effect&quot;</span>], <span class="at">lfc =</span> <span class="fu">log2</span>(<span class="fl">1.5</span>))</span>
+<span id="cb80-4"><a href="#cb80-4" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [6.3 glmTreat (成長 &gt; 1.5 倍) 爆款明星飲品 Top 10] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [6.3 glmTreat (成長 &gt; 1.5 倍) 爆款明星飲品 Top 10] ---</code></pre>
+<div class="sourceCode" id="cb82"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb82-1"><a href="#cb82-1" tabindex="-1"></a>top_stars <span class="ot">&lt;-</span> <span class="fu">topTags</span>(tr_campus, <span class="at">n =</span> <span class="dv">10</span>)</span>
+<span id="cb82-2"><a href="#cb82-2" tabindex="-1"></a><span class="fu">print</span>(top_stars[, <span class="fu">c</span>(<span class="st">&quot;DrinkName&quot;</span>, <span class="st">&quot;Category&quot;</span>, <span class="st">&quot;logFC&quot;</span>, <span class="st">&quot;PValue&quot;</span>, <span class="st">&quot;FDR&quot;</span>)])</span></code></pre></div>
+<pre><code>## Coefficient:  -1*Campus.Normal 1*Campus.Promo 
+##                DrinkName Category    logFC       PValue
+## DRINK_029       熟成歐蕾 濃醇奶茶 2.007788 1.424732e-07
+## DRINK_035   仙草凍鮮奶茶 濃醇奶茶 1.858859 3.264405e-07
+## DRINK_097   黑鑽可可冰沙 季節冰沙 1.883667 6.796195e-07
+## DRINK_106   巨峰紫提雪泥 季節冰沙 1.942657 1.171031e-06
+## DRINK_028   黑糖雙波鮮奶 濃醇奶茶 1.761966 1.482990e-06
+## DRINK_027   經典珍珠奶茶 濃醇奶茶 1.759206 1.750380e-06
+## DRINK_100 奇異果優格冰沙 季節冰沙 1.856845 4.008026e-06
+## DRINK_102   宇治焙茶碎冰 季節冰沙 1.861080 6.558033e-06
+## DRINK_099   草莓芝芝雪霜 季節冰沙 1.765854 7.037242e-06
+## DRINK_040   蜜香燕麥奶茶 濃醇奶茶 1.575077 8.779572e-06
+##                    FDR
+## DRINK_029 2.108604e-05
+## DRINK_035 2.415660e-05
+## DRINK_097 3.352790e-05
+## DRINK_106 4.317603e-05
+## DRINK_028 4.317603e-05
+## DRINK_027 4.317603e-05
+## DRINK_100 8.474112e-05
+## DRINK_102 1.157235e-04
+## DRINK_099 1.157235e-04
+## DRINK_040 1.299377e-04</code></pre>
+<div class="sourceCode" id="cb84"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb84-1"><a href="#cb84-1" tabindex="-1"></a><span class="co"># 6.4 標記品項狀態 (1: 促銷暴賣, -1: 促銷被排擠滯銷, 0: 無顯著變化)</span></span>
+<span id="cb84-2"><a href="#cb84-2" tabindex="-1"></a>is_de <span class="ot">&lt;-</span> <span class="fu">decideTests</span>(tr_campus)</span>
+<span id="cb84-3"><a href="#cb84-3" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [6.4 飲品分類統計表] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [6.4 飲品分類統計表] ---</code></pre>
+<div class="sourceCode" id="cb86"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb86-1"><a href="#cb86-1" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">summary</span>(is_de))</span></code></pre></div>
+<pre><code>##        -1*Campus.Normal 1*Campus.Promo
+## Down                                 8
+## NotSig                             113
+## Up                                  27</code></pre>
+<div class="sourceCode" id="cb88"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb88-1"><a href="#cb88-1" tabindex="-1"></a><span class="co"># 6.5 繪製標記差異品項的 MD 圖</span></span>
+<span id="cb88-2"><a href="#cb88-2" tabindex="-1"></a><span class="fu">pdf</span>(<span class="st">&quot;plot_05_MD_DEGs.pdf&quot;</span>, <span class="at">width =</span> <span class="dv">8</span>, <span class="at">height =</span> <span class="dv">6</span>)</span>
+<span id="cb88-3"><a href="#cb88-3" tabindex="-1"></a><span class="fu">plotMD</span>(tr_campus, <span class="at">status =</span> is_de, <span class="at">values =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="sc">-</span><span class="dv">1</span>), <span class="at">col =</span> <span class="fu">c</span>(<span class="st">&quot;red&quot;</span>, <span class="st">&quot;blue&quot;</span>),</span>
+<span id="cb88-4"><a href="#cb88-4" tabindex="-1"></a>       <span class="at">main =</span> <span class="st">&quot;學校促銷成效 MD 圖 (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&quot;</span>)</span></code></pre></div>
+<pre><code>## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 學
+## (U+5B78)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 校
+## (U+6821)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 促
+## (U+4FC3)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 銷
+## (U+92B7)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 成
+## (U+6210)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 效
+## (U+6548)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 圖
+## (U+5716)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 紅
+## (U+7D05)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 色
+## (U+8272)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 暴
+## (U+66B4)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 賣
+## (U+8CE3)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 倍
+## (U+500D)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 藍
+## (U+85CD)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 色
+## (U+8272)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 銷
+## (U+92B7)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 量
+## (U+91CF)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 被
+## (U+88AB)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 排
+## (U+6392)
+
+## Warning in title(...): conversion failure on &#39;學校促銷成效 MD 圖
+## (紅色: 暴賣 &gt; 1.5倍, 藍色: 銷量被排擠)&#39; in &#39;mbcsToSbcs&#39;: for 擠
+## (U+64E0)</code></pre>
+<div class="sourceCode" id="cb90"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb90-1"><a href="#cb90-1" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">&quot;topright&quot;</span>, <span class="at">legend =</span> <span class="fu">c</span>(<span class="st">&quot;顯著暴增 (&gt;1.5x)&quot;</span>, <span class="st">&quot;顯著衰退&quot;</span>, <span class="st">&quot;無顯著影響&quot;</span>),</span>
+<span id="cb90-2"><a href="#cb90-2" tabindex="-1"></a>       <span class="at">col =</span> <span class="fu">c</span>(<span class="st">&quot;red&quot;</span>, <span class="st">&quot;blue&quot;</span>, <span class="st">&quot;black&quot;</span>), <span class="at">pch =</span> <span class="dv">16</span>, <span class="at">cex =</span> <span class="fl">0.8</span>)</span></code></pre></div>
+<pre><code>## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著暴增 (&gt;1.5x)&#39; in &#39;mbcsToSbcs&#39;: for 顯 (U+986F)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著暴增 (&gt;1.5x)&#39; in &#39;mbcsToSbcs&#39;: for 著 (U+8457)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著暴增 (&gt;1.5x)&#39; in &#39;mbcsToSbcs&#39;: for 暴 (U+66B4)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著暴增 (&gt;1.5x)&#39; in &#39;mbcsToSbcs&#39;: for 增 (U+589E)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著衰退&#39; in &#39;mbcsToSbcs&#39;: for 顯 (U+986F)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著衰退&#39; in &#39;mbcsToSbcs&#39;: for 著 (U+8457)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著衰退&#39; in &#39;mbcsToSbcs&#39;: for 衰 (U+8870)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;顯著衰退&#39; in &#39;mbcsToSbcs&#39;: for 退 (U+9000)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;無顯著影響&#39; in &#39;mbcsToSbcs&#39;: for 無 (U+7121)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;無顯著影響&#39; in &#39;mbcsToSbcs&#39;: for 顯 (U+986F)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;無顯著影響&#39; in &#39;mbcsToSbcs&#39;: for 著 (U+8457)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;無顯著影響&#39; in &#39;mbcsToSbcs&#39;: for 影 (U+5F71)
+
+## Warning in text.default(x, y, ...): conversion failure on
+## &#39;無顯著影響&#39; in &#39;mbcsToSbcs&#39;: for 響 (U+97FF)</code></pre>
+<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb92-1"><a href="#cb92-1" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+<pre><code>## png 
+##   2</code></pre>
+<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb94-1"><a href="#cb94-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 已輸出 plot_05_MD_DEGs.pdf</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 已輸出 plot_05_MD_DEGs.pdf</code></pre>
+<div class="sourceCode" id="cb96"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb96-1"><a href="#cb96-1" tabindex="-1"></a><span class="co"># 步驟 7. Top 爆款飲品階層分群熱圖 (Heatmap of Sales Winners)</span></span></code></pre></div>
+<div class="sourceCode" id="cb97"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb97-1"><a href="#cb97-1" tabindex="-1"></a><span class="co"># 計算對數 CPM (log2-CPM, 加入 prior.count=2 避免 log(0))</span></span>
+<span id="cb97-2"><a href="#cb97-2" tabindex="-1"></a>logCPM <span class="ot">&lt;-</span> <span class="fu">cpm</span>(y, <span class="at">prior.count =</span> <span class="dv">2</span>, <span class="at">log =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb97-3"><a href="#cb97-3" tabindex="-1"></a><span class="fu">rownames</span>(logCPM) <span class="ot">&lt;-</span> y<span class="sc">$</span>genes<span class="sc">$</span>DrinkName</span>
+<span id="cb97-4"><a href="#cb97-4" tabindex="-1"></a></span>
+<span id="cb97-5"><a href="#cb97-5" tabindex="-1"></a><span class="co"># 挑選在促銷中最顯著變化的前 25 款飲料</span></span>
+<span id="cb97-6"><a href="#cb97-6" tabindex="-1"></a>top25_indices <span class="ot">&lt;-</span> <span class="fu">order</span>(tr_campus<span class="sc">$</span>table<span class="sc">$</span>PValue)[<span class="dv">1</span><span class="sc">:</span><span class="dv">25</span>]</span>
+<span id="cb97-7"><a href="#cb97-7" tabindex="-1"></a>top25_mat <span class="ot">&lt;-</span> logCPM[top25_indices, ]</span>
+<span id="cb97-8"><a href="#cb97-8" tabindex="-1"></a></span>
+<span id="cb97-9"><a href="#cb97-9" tabindex="-1"></a><span class="co"># 針對每款飲品進行 Z-score 標準化 (使銷量模式高低對比分明)</span></span>
+<span id="cb97-10"><a href="#cb97-10" tabindex="-1"></a>top25_scaled <span class="ot">&lt;-</span> <span class="fu">t</span>(<span class="fu">scale</span>(<span class="fu">t</span>(top25_mat)))</span>
+<span id="cb97-11"><a href="#cb97-11" tabindex="-1"></a></span>
+<span id="cb97-12"><a href="#cb97-12" tabindex="-1"></a><span class="fu">pdf</span>(<span class="st">&quot;plot_06_Heatmap_Winners.pdf&quot;</span>, <span class="at">width =</span> <span class="dv">10</span>, <span class="at">height =</span> <span class="dv">8</span>)</span>
+<span id="cb97-13"><a href="#cb97-13" tabindex="-1"></a>col_heatmap <span class="ot">&lt;-</span> <span class="fu">colorpanel</span>(<span class="dv">100</span>, <span class="st">&quot;navy&quot;</span>, <span class="st">&quot;white&quot;</span>, <span class="st">&quot;firebrick3&quot;</span>)</span>
+<span id="cb97-14"><a href="#cb97-14" tabindex="-1"></a><span class="fu">heatmap.2</span>(top25_scaled, <span class="at">col =</span> col_heatmap, <span class="at">scale =</span> <span class="st">&quot;none&quot;</span>, <span class="at">trace =</span> <span class="st">&quot;none&quot;</span>,</span>
+<span id="cb97-15"><a href="#cb97-15" tabindex="-1"></a>          <span class="at">dendrogram =</span> <span class="st">&quot;both&quot;</span>, <span class="at">Rowv =</span> <span class="cn">TRUE</span>, <span class="at">Colv =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb97-16"><a href="#cb97-16" tabindex="-1"></a>          <span class="at">cexRow =</span> <span class="fl">0.85</span>, <span class="at">cexCol =</span> <span class="fl">1.0</span>, <span class="at">margins =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">12</span>),</span>
+<span id="cb97-17"><a href="#cb97-17" tabindex="-1"></a>          <span class="at">main =</span> <span class="st">&quot;Top 25 促銷反應明星飲品分群熱圖&quot;</span>)</span></code></pre></div>
+<pre><code>## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑鑽可可冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 黑 (U+9ED1)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑鑽可可冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 鑽 (U+947D)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑鑽可可冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 可 (U+53EF)
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑鑽可可冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 可 (U+53EF)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑鑽可可冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑鑽可可冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 沙 (U+6C99)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;奇異果優格冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 奇 (U+5947)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;奇異果優格冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 異 (U+7570)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;奇異果優格冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 果 (U+679C)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;奇異果優格冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 優 (U+512A)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;奇異果優格冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 格 (U+683C)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;奇異果優格冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;奇異果優格冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 沙 (U+6C99)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;熟成歐蕾&#39; in &#39;mbcsToSbcs&#39;:
+## for 熟 (U+719F)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;熟成歐蕾&#39; in &#39;mbcsToSbcs&#39;:
+## for 成 (U+6210)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;熟成歐蕾&#39; in &#39;mbcsToSbcs&#39;:
+## for 歐 (U+6B50)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;熟成歐蕾&#39; in &#39;mbcsToSbcs&#39;:
+## for 蕾 (U+857E)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;伯爵鮮奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 伯 (U+4F2F)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;伯爵鮮奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 爵 (U+7235)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;伯爵鮮奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 鮮 (U+9BAE)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;伯爵鮮奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;伯爵鮮奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;金萱雙Q奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 金 (U+91D1)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;金萱雙Q奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 萱 (U+8431)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;金萱雙Q奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 雙 (U+96D9)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;金萱雙Q奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;金萱雙Q奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;芋圓烏龍奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 芋 (U+828B)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;芋圓烏龍奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 圓 (U+5713)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;芋圓烏龍奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 烏 (U+70CF)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;芋圓烏龍奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 龍 (U+9F8D)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;芋圓烏龍奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;芋圓烏龍奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;經典珍珠奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 經 (U+7D93)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;經典珍珠奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 典 (U+5178)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;經典珍珠奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 珍 (U+73CD)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;經典珍珠奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 珠 (U+73E0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;經典珍珠奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;經典珍珠奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;仙草凍鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 仙 (U+4ED9)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;仙草凍鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 草 (U+8349)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;仙草凍鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 凍 (U+51CD)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;仙草凍鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 鮮 (U+9BAE)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;仙草凍鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;仙草凍鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖雙波鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 黑 (U+9ED1)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖雙波鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 糖 (U+7CD6)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖雙波鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 雙 (U+96D9)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖雙波鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 波 (U+6CE2)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖雙波鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 鮮 (U+9BAE)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖雙波鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;胚芽烤奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 胚 (U+80DA)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;胚芽烤奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 芽 (U+82BD)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;胚芽烤奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 烤 (U+70E4)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;胚芽烤奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;胚芽烤奶茶&#39; in &#39;mbcsToSbcs&#39;:
+## for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;蜜香燕麥奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 蜜 (U+871C)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;蜜香燕麥奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 香 (U+9999)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;蜜香燕麥奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 燕 (U+71D5)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;蜜香燕麥奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 麥 (U+9EA5)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;蜜香燕麥奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;蜜香燕麥奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;法式可可歐蕾&#39; in
+## &#39;mbcsToSbcs&#39;: for 法 (U+6CD5)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;法式可可歐蕾&#39; in
+## &#39;mbcsToSbcs&#39;: for 式 (U+5F0F)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;法式可可歐蕾&#39; in
+## &#39;mbcsToSbcs&#39;: for 可 (U+53EF)
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;法式可可歐蕾&#39; in
+## &#39;mbcsToSbcs&#39;: for 可 (U+53EF)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;法式可可歐蕾&#39; in
+## &#39;mbcsToSbcs&#39;: for 歐 (U+6B50)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;法式可可歐蕾&#39; in
+## &#39;mbcsToSbcs&#39;: for 蕾 (U+857E)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;宇治焙茶碎冰&#39; in
+## &#39;mbcsToSbcs&#39;: for 宇 (U+5B87)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;宇治焙茶碎冰&#39; in
+## &#39;mbcsToSbcs&#39;: for 治 (U+6CBB)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;宇治焙茶碎冰&#39; in
+## &#39;mbcsToSbcs&#39;: for 焙 (U+7119)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;宇治焙茶碎冰&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;宇治焙茶碎冰&#39; in
+## &#39;mbcsToSbcs&#39;: for 碎 (U+788E)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;宇治焙茶碎冰&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖布丁冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 焦 (U+7126)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖布丁冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 糖 (U+7CD6)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖布丁冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 布 (U+5E03)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖布丁冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 丁 (U+4E01)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖布丁冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖布丁冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 沙 (U+6C99)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰香鳳梨冰泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 椰 (U+6930)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰香鳳梨冰泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 香 (U+9999)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰香鳳梨冰泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 鳳 (U+9CF3)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰香鳳梨冰泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 梨 (U+68A8)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰香鳳梨冰泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰香鳳梨冰泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 泥 (U+6CE5)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 愛 (U+611B)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 文 (U+6587)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 芒 (U+8292)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 果 (U+679C)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 極 (U+6975)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 光 (U+5149)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;愛文芒果極光冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 沙 (U+6C99)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;巨峰紫提雪泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 巨 (U+5DE8)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;巨峰紫提雪泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 峰 (U+5CF0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;巨峰紫提雪泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 紫 (U+7D2B)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;巨峰紫提雪泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 提 (U+63D0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;巨峰紫提雪泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 雪 (U+96EA)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;巨峰紫提雪泥&#39; in
+## &#39;mbcsToSbcs&#39;: for 泥 (U+6CE5)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;草莓芝芝雪霜&#39; in
+## &#39;mbcsToSbcs&#39;: for 草 (U+8349)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;草莓芝芝雪霜&#39; in
+## &#39;mbcsToSbcs&#39;: for 莓 (U+8393)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;草莓芝芝雪霜&#39; in
+## &#39;mbcsToSbcs&#39;: for 芝 (U+829D)
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;草莓芝芝雪霜&#39; in
+## &#39;mbcsToSbcs&#39;: for 芝 (U+829D)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;草莓芝芝雪霜&#39; in
+## &#39;mbcsToSbcs&#39;: for 雪 (U+96EA)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;草莓芝芝雪霜&#39; in
+## &#39;mbcsToSbcs&#39;: for 霜 (U+971C)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;荔枝玫瑰凍冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 荔 (U+8354)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;荔枝玫瑰凍冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 枝 (U+679D)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;荔枝玫瑰凍冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 玫 (U+73AB)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;荔枝玫瑰凍冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 瑰 (U+7470)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;荔枝玫瑰凍冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 凍 (U+51CD)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;荔枝玫瑰凍冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;荔枝玫瑰凍冰沙&#39; in
+## &#39;mbcsToSbcs&#39;: for 沙 (U+6C99)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰果烏龍奶&#39; in &#39;mbcsToSbcs&#39;:
+## for 椰 (U+6930)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰果烏龍奶&#39; in &#39;mbcsToSbcs&#39;:
+## for 果 (U+679C)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰果烏龍奶&#39; in &#39;mbcsToSbcs&#39;:
+## for 烏 (U+70CF)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰果烏龍奶&#39; in &#39;mbcsToSbcs&#39;:
+## for 龍 (U+9F8D)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;椰果烏龍奶&#39; in &#39;mbcsToSbcs&#39;:
+## for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;抹茶紅豆鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 抹 (U+62B9)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;抹茶紅豆鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;抹茶紅豆鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 紅 (U+7D05)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;抹茶紅豆鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 豆 (U+8C46)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;抹茶紅豆鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 鮮 (U+9BAE)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;抹茶紅豆鮮奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖黑鑽奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 焦 (U+7126)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖黑鑽奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 糖 (U+7CD6)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖黑鑽奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 黑 (U+9ED1)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖黑鑽奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 鑽 (U+947D)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖黑鑽奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;焦糖黑鑽奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖寒天鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 黑 (U+9ED1)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖寒天鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 糖 (U+7CD6)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖寒天鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 寒 (U+5BD2)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖寒天鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 天 (U+5929)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖寒天鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 鮮 (U+9BAE)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖寒天鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;黑糖寒天鮮奶茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;小芋圓絲襪奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 小 (U+5C0F)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;小芋圓絲襪奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 芋 (U+828B)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;小芋圓絲襪奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 圓 (U+5713)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;小芋圓絲襪奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 絲 (U+7D72)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;小芋圓絲襪奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 襪 (U+896A)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;小芋圓絲襪奶&#39; in
+## &#39;mbcsToSbcs&#39;: for 奶 (U+5976)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;香草冰淇淋紅茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 香 (U+9999)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;香草冰淇淋紅茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 草 (U+8349)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;香草冰淇淋紅茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;香草冰淇淋紅茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 淇 (U+6DC7)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;香草冰淇淋紅茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 淋 (U+6DCB)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;香草冰淇淋紅茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 紅 (U+7D05)
+
+## Warning in axis(4, iy, labels = labRow, las = 2, line = -0.5 +
+## offsetRow, : conversion failure on &#39;香草冰淇淋紅茶&#39; in
+## &#39;mbcsToSbcs&#39;: for 茶 (U+8336)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 促 (U+4FC3)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 銷 (U+92B7)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 反 (U+53CD)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 應 (U+61C9)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 明 (U+660E)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 星 (U+661F)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 飲 (U+98F2)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 品 (U+54C1)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 分 (U+5206)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 群 (U+7FA4)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 熱 (U+71B1)
+
+## Warning in title(main, cex.main = 1.5 * op[[&quot;cex.main&quot;]]):
+## conversion failure on &#39;Top 25 促銷反應明星飲品分群熱圖&#39; in
+## &#39;mbcsToSbcs&#39;: for 圖 (U+5716)</code></pre>
+<div class="sourceCode" id="cb99"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb99-1"><a href="#cb99-1" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+<pre><code>## png 
+##   2</code></pre>
+<div class="sourceCode" id="cb101"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb101-1"><a href="#cb101-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 已輸出 plot_06_Heatmap_Winners.pdf</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 已輸出 plot_06_Heatmap_Winners.pdf</code></pre>
+<div class="sourceCode" id="cb103"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb103-1"><a href="#cb103-1" tabindex="-1"></a><span class="co"># 步驟 8. 品類集合富集檢定 (Category Set Enrichment / CAMERA: 相當於 GSEA)</span></span></code></pre></div>
+<div class="sourceCode" id="cb104"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb104-1"><a href="#cb104-1" tabindex="-1"></a><span class="co"># 商業直覺：生信中的 GO/KEGG Pathway，在飲料店就是「品類 (Category)」！</span></span>
+<span id="cb104-2"><a href="#cb104-2" tabindex="-1"></a><span class="co"># 我們想知道：到底「季節冰沙」是全品類集體暴動，還是「原葉純茶」全面被犧牲？</span></span>
+<span id="cb104-3"><a href="#cb104-3" tabindex="-1"></a><span class="co"># camera() 是競爭型檢定 (Competitive Test)，會自動校正品類內部飲品間的相互關聯。</span></span>
+<span id="cb104-4"><a href="#cb104-4" tabindex="-1"></a></span>
+<span id="cb104-5"><a href="#cb104-5" tabindex="-1"></a><span class="co"># 建立品類清單索引 (相當於 MSigDB gene sets)</span></span>
+<span id="cb104-6"><a href="#cb104-6" tabindex="-1"></a>cat_list <span class="ot">&lt;-</span> <span class="fu">split</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(y), y<span class="sc">$</span>genes<span class="sc">$</span>Category)</span>
+<span id="cb104-7"><a href="#cb104-7" tabindex="-1"></a></span>
+<span id="cb104-8"><a href="#cb104-8" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [步驟 8: 各飲料品類包含的品項數] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [步驟 8: 各飲料品類包含的品項數] ---</code></pre>
+<div class="sourceCode" id="cb106"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb106-1"><a href="#cb106-1" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">sapply</span>(cat_list, length))</span></code></pre></div>
+<pre><code>## 季節冰沙 原葉純茶 養生溫飲 濃醇奶茶 鮮果特調 
+##       30       25       23       35       35</code></pre>
+<div class="sourceCode" id="cb108"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb108-1"><a href="#cb108-1" tabindex="-1"></a><span class="co"># 執行 camera 檢定</span></span>
+<span id="cb108-2"><a href="#cb108-2" tabindex="-1"></a>cam_result <span class="ot">&lt;-</span> <span class="fu">camera</span>(y, <span class="at">index =</span> cat_list, <span class="at">design =</span> design,</span>
+<span id="cb108-3"><a href="#cb108-3" tabindex="-1"></a>                     <span class="at">contrast =</span> con[, <span class="st">&quot;Campus_Promo_Effect&quot;</span>], <span class="at">inter.gene.cor =</span> <span class="fl">0.01</span>)</span>
+<span id="cb108-4"><a href="#cb108-4" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">--- [8.1 飲料品類富集檢定結果 (CAMERA)] ---</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## --- [8.1 飲料品類富集檢定結果 (CAMERA)] ---</code></pre>
+<div class="sourceCode" id="cb110"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb110-1"><a href="#cb110-1" tabindex="-1"></a><span class="fu">print</span>(cam_result)</span></code></pre></div>
+<pre><code>##          NGenes Direction       PValue          FDR
+## 季節冰沙     30        Up 8.833651e-06 4.416826e-05
+## 鮮果特調     35      Down 7.108635e-03 1.777159e-02
+## 原葉純茶     25      Down 1.056021e-01 1.760035e-01
+## 養生溫飲     23      Down 4.763321e-01 5.136799e-01
+## 濃醇奶茶     35        Up 5.136799e-01 5.136799e-01</code></pre>
+<div class="sourceCode" id="cb112"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb112-1"><a href="#cb112-1" tabindex="-1"></a><span class="co"># 8.2 Barcode Plot: 視覺化特定品類在銷量成長光譜上的集中趨勢</span></span>
+<span id="cb112-2"><a href="#cb112-2" tabindex="-1"></a><span class="fu">pdf</span>(<span class="st">&quot;plot_07_Barcode_Smoothies.pdf&quot;</span>, <span class="at">width =</span> <span class="dv">8</span>, <span class="at">height =</span> <span class="dv">5</span>)</span>
+<span id="cb112-3"><a href="#cb112-3" tabindex="-1"></a>res_for_barcode <span class="ot">&lt;-</span> <span class="fu">glmQLFTest</span>(fit, <span class="at">contrast =</span> con[, <span class="st">&quot;Campus_Promo_Effect&quot;</span>])</span>
+<span id="cb112-4"><a href="#cb112-4" tabindex="-1"></a>smoothie_idx <span class="ot">&lt;-</span> cat_list[[<span class="st">&quot;季節冰沙&quot;</span>]]</span>
+<span id="cb112-5"><a href="#cb112-5" tabindex="-1"></a><span class="fu">barcodeplot</span>(res_for_barcode<span class="sc">$</span>table<span class="sc">$</span>logFC, <span class="at">index =</span> smoothie_idx,</span>
+<span id="cb112-6"><a href="#cb112-6" tabindex="-1"></a>            <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">&quot;促銷大跌&quot;</span>, <span class="st">&quot;促銷暴增&quot;</span>),</span>
+<span id="cb112-7"><a href="#cb112-7" tabindex="-1"></a>            <span class="at">main =</span> <span class="st">&quot;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&quot;</span>)</span></code></pre></div>
+<pre><code>## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 季 (U+5B63)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 節 (U+7BC0)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 冰 (U+51B0)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 沙 (U+6C99)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 品 (U+54C1)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 類 (U+985E)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 於 (U+65BC)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 促 (U+4FC3)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 銷 (U+92B7)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 全 (U+5168)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 體 (U+9AD4)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 光 (U+5149)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 譜 (U+8B5C)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 之 (U+4E4B)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 富 (U+5BCC)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 集 (U+96C6)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 條 (U+689D)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 形 (U+5F62)
+
+## Warning in title(...): conversion failure on
+## &#39;季節冰沙品類於促銷全體光譜之富集條形圖 (Barcode Plot)&#39; in
+## &#39;mbcsToSbcs&#39;: for 圖 (U+5716)
+
+## Warning in axis(side = 2, at = lab.at, padj = 3.8, cex.axis =
+## 0.85, labels = labels[1], : conversion failure on &#39;促銷大跌&#39; in
+## &#39;mbcsToSbcs&#39;: for 促 (U+4FC3)
+
+## Warning in axis(side = 2, at = lab.at, padj = 3.8, cex.axis =
+## 0.85, labels = labels[1], : conversion failure on &#39;促銷大跌&#39; in
+## &#39;mbcsToSbcs&#39;: for 銷 (U+92B7)
+
+## Warning in axis(side = 2, at = lab.at, padj = 3.8, cex.axis =
+## 0.85, labels = labels[1], : conversion failure on &#39;促銷大跌&#39; in
+## &#39;mbcsToSbcs&#39;: for 大 (U+5927)
+
+## Warning in axis(side = 2, at = lab.at, padj = 3.8, cex.axis =
+## 0.85, labels = labels[1], : conversion failure on &#39;促銷大跌&#39; in
+## &#39;mbcsToSbcs&#39;: for 跌 (U+8DCC)
+
+## Warning in axis(side = 4, at = lab.at, padj = -3.8, cex.axis =
+## 0.85, labels = labels[2], : conversion failure on &#39;促銷暴增&#39; in
+## &#39;mbcsToSbcs&#39;: for 促 (U+4FC3)
+
+## Warning in axis(side = 4, at = lab.at, padj = -3.8, cex.axis =
+## 0.85, labels = labels[2], : conversion failure on &#39;促銷暴增&#39; in
+## &#39;mbcsToSbcs&#39;: for 銷 (U+92B7)
+
+## Warning in axis(side = 4, at = lab.at, padj = -3.8, cex.axis =
+## 0.85, labels = labels[2], : conversion failure on &#39;促銷暴增&#39; in
+## &#39;mbcsToSbcs&#39;: for 暴 (U+66B4)
+
+## Warning in axis(side = 4, at = lab.at, padj = -3.8, cex.axis =
+## 0.85, labels = labels[2], : conversion failure on &#39;促銷暴增&#39; in
+## &#39;mbcsToSbcs&#39;: for 增 (U+589E)</code></pre>
+<div class="sourceCode" id="cb114"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb114-1"><a href="#cb114-1" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+<pre><code>## png 
+##   2</code></pre>
+<div class="sourceCode" id="cb116"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb116-1"><a href="#cb116-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 已輸出 plot_07_Barcode_Smoothies.pdf</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 已輸出 plot_07_Barcode_Smoothies.pdf</code></pre>
+<div class="sourceCode" id="cb118"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb118-1"><a href="#cb118-1" tabindex="-1"></a><span class="co"># 學生課後實作與思考題 (Student Practice Tasks)</span></span></code></pre></div>
+<div class="sourceCode" id="cb119"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb119-1"><a href="#cb119-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">================================================================</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## ================================================================</code></pre>
+<div class="sourceCode" id="cb121"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb121-1"><a href="#cb121-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;【學生實作作業 Challenge Tasks】</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 【學生實作作業 Challenge Tasks】</code></pre>
+<div class="sourceCode" id="cb123"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb123-1"><a href="#cb123-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;1. [練習一: 百貨門市促銷分析]</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 1. [練習一: 百貨門市促銷分析]</code></pre>
+<div class="sourceCode" id="cb125"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb125-1"><a href="#cb125-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;   請使用 tr_mall &lt;- glmTreat(fit, contrast = con[,&#39;Mall_Promo_Effect&#39;], lfc=log2(1.5))</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>##    請使用 tr_mall &lt;- glmTreat(fit, contrast = con[,&#39;Mall_Promo_Effect&#39;], lfc=log2(1.5))</code></pre>
+<div class="sourceCode" id="cb127"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb127-1"><a href="#cb127-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;   輸出百貨門市促銷前 5 大明星飲品，比較與學校門市有何不同？</span><span class="sc">\n\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>##    輸出百貨門市促銷前 5 大明星飲品，比較與學校門市有何不同？</code></pre>
+<div class="sourceCode" id="cb129"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb129-1"><a href="#cb129-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;2. [練習二: 平日門市客群分析]</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 2. [練習二: 平日門市客群分析]</code></pre>
+<div class="sourceCode" id="cb131"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb131-1"><a href="#cb131-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;   請檢驗 con[,&#39;Store_Baseline_Diff&#39;]，找出平日學校比百貨更受歡迎的飲品。</span><span class="sc">\n\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>##    請檢驗 con[,&#39;Store_Baseline_Diff&#39;]，找出平日學校比百貨更受歡迎的飲品。</code></pre>
+<div class="sourceCode" id="cb133"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb133-1"><a href="#cb133-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;3. [練習三: 雙重差異交互作用分析]</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 3. [練習三: 雙重差異交互作用分析]</code></pre>
+<div class="sourceCode" id="cb135"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb135-1"><a href="#cb135-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;   檢驗 con[,&#39;Interaction_Promo&#39;]，找出『在百貨促銷成長幅度顯著大於學校促銷』的特殊飲品！</span><span class="sc">\n\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>##    檢驗 con[,&#39;Interaction_Promo&#39;]，找出『在百貨促銷成長幅度顯著大於學校促銷』的特殊飲品！</code></pre>
+<div class="sourceCode" id="cb137"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb137-1"><a href="#cb137-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;4. [練習四: 門檻敏感度分析]</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 4. [練習四: 門檻敏感度分析]</code></pre>
+<div class="sourceCode" id="cb139"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb139-1"><a href="#cb139-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;   如果將 glmTreat 的門檻從 1.5 倍 (log2(1.5)) 調升至 2 倍 (log2(2))，</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>##    如果將 glmTreat 的門檻從 1.5 倍 (log2(1.5)) 調升至 2 倍 (log2(2))，</code></pre>
+<div class="sourceCode" id="cb141"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb141-1"><a href="#cb141-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;   學校門市符合爆款資格的飲品數量會如何改變？</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>##    學校門市符合爆款資格的飲品數量會如何改變？</code></pre>
+<div class="sourceCode" id="cb143"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb143-1"><a href="#cb143-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;================================================================</span><span class="sc">\n\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## ================================================================</code></pre>
+<div class="sourceCode" id="cb145"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb145-1"><a href="#cb145-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;&gt;&gt;&gt; 全部分析腳本執行完畢！請檢視產生的 7 張 PDF 圖檔與 Console 報表。</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## &gt;&gt;&gt; 全部分析腳本執行完畢！請檢視產生的 7 張 PDF 圖檔與 Console 報表。</code></pre>
+
+</body>
+</html>
